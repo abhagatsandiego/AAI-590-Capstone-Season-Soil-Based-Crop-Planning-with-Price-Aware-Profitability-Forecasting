@@ -8,8 +8,8 @@ This project is a part of the AAI-590 course in the Applied Artificial Intellige
 
 1. Clone this repository:
    ```
-   git clone <your-repo-url>
-   cd <repo-folder>
+   git clone https://github.com/abhagatsandiego/AAI-590-Capstone-Season-Soil-Based-Crop-Planning-with-Price-Aware-Profitability-Forecasting.git
+   cd AAI-590-Capstone-Season-Soil-Based-Crop-Planning-with-Price-Aware-Profitability-Forecasting
    ```
 2. Open `AAI590_Capstone_Notebook_Bhagat.ipynb` in Google Colab (recommended) or Jupyter Notebook locally.
 3. Required Python packages: `pandas`, `numpy`, `scikit-learn`, `matplotlib`. All are pre-installed in Colab; for a local environment: `pip install pandas numpy scikit-learn matplotlib`.
@@ -64,17 +64,19 @@ See the [full report](./Bhagat_Ankur_AAI590_Final_Report.pdf) for complete metho
 
 | File | Description |
 |---|---|
-| `AAI590_Capstone_Notebook_Bhagat.ipynb` | Full pipeline: data cleaning, EDA, model design/training/optimization, and analysis for both modules (8 sections) |
+| `AAI590_Group8_Capstone_Project_Notebook_A....ipynb` | Full pipeline: data cleaning, EDA, model design/training/optimization, and analysis for both modules (8 sections) |
+| `AAI590_Group8_Capstone_Project_Notebook_A....pdf` | PDF export of the above notebook, with real executed outputs for the crop recommendation module |
 | `train_crop.py` | Standalone script reproducing the crop recommendation module (MLP + Random Forest) |
 | `Crop_recommendation.csv` | Kaggle crop recommendation dataset |
-| `Monthly_data_cmo.csv` | Maharashtra APMC price data (primary price-forecasting dataset, filtered to Chandrapur in the notebook) |
-| `agmarknet_india_historical_prices_2024_2025.csv` | Agmarknet national price data (secondary price-forecasting dataset, filtered to Sehore, MP in the notebook) |
-| `Bhagat_Ankur_AAI590_Final_Report.pdf` / `.docx` | Final written report |
-| `Bhagat_Ankur_AAI590_Presentation.pptx` | Final presentation slides |
+| `Datasets.zip` | Price-forecasting datasets: Chandrapur (Maharashtra mandi data, primary) and Sehore (Agmarknet, Madhya Pradesh, secondary) |
+| `AAI590_Group8_Capstone_Project Report.pdf` | Final written report |
+| `AAI590_Group8_Capstone_PPT.pptx` | Final presentation slides |
+| `Presentation_Transcript.md` | Speaking script for the recorded presentation |
+| `LICENSE` | MIT License |
 
 ## License
 
-*(Not yet finalized — add a `LICENSE` file to the repository root once decided. [MIT](https://choosealicense.com/licenses/mit/) is a common permissive choice for portfolio projects if you don't have a preference.)*
+This project is licensed under the [MIT License](./LICENSE).
 
 ## Acknowledgments
 
